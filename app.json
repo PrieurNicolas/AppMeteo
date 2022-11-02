@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "meteo",
+    "slug": "meteo",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "6692bf66-2a37-46bf-abfd-2af9a1a619a4"
+      }
+    }
+  },
+  "name": "meteo"
+}
