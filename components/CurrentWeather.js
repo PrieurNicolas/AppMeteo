@@ -36,7 +36,7 @@ export default function CurrentWeather({ data }) {
             <Text style={styles.today}>{dateFormatted}</Text>
             <View style={styles.spacer}/>
             <View style={styles.info}>
-            <Text style={styles.infoWind}><MaterialCommunityIcons name="weather-windy" size={24} color="white" />{"\n"}{Math.round(currentWeather?.wind.speed) *3.6} km/h {"\n"} Vitesse du vent</Text>
+            <Text style={styles.infoWind}><MaterialCommunityIcons name="weather-windy" size={24} color="white" />{"\n"}{Math.round(currentWeather?.wind.speed *3.6)} km/h {"\n"} Vitesse du vent</Text>
             <Text style={styles.infoHumi}><Ionicons name="water-outline" size={24} color="white" />{"\n"}{currentWeather?.main.humidity}% {"\n"}Humidité</Text>            
             <Text style={styles.infoRain}><Feather name="cloud-rain" size={24} color="white" />{"\n"}{Math.round(currentWeather?.pop) * 100} {"\n"} Chance de pleuvoir</Text>
             </View>

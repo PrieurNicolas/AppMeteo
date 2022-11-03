@@ -10,6 +10,9 @@
       "eas": {
         "projectId": "6692bf66-2a37-46bf-abfd-2af9a1a619a4"
       }
+    },
+    "android": {
+      "package": "com.zorfy.meteo"
     }
   },
   "name": "meteo"

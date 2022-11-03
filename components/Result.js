@@ -6,7 +6,7 @@ import axios from 'axios';
 import CurrentWeather from './CurrentWeather';
 import Forecast from './Forecast';
 
-const APIKey = '';
+const APIKey = 'df22373210c34ecaeb7b7ae39564d6b0';
 const API_URL = (lat, lon) => `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${APIKey}&lang=fr&units=metric`
 
 export default function Result() {
@@ -58,7 +58,6 @@ const styles = StyleSheet.create({
         flex : 1,
         justifyContent:'center',
         alignItems:'center',
-        paddingTop: Constants.statusBarHeight,
         padding: 8,
         backgroundColor: '#E2E6E1'
     },
